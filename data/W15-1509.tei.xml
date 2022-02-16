@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Short Text Clustering via Convolutional Neural Networks</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jiaming</forename><surname>Xu</surname></persName>
+							<email>jiaming.xu@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peng</forename><surname>Wang</surname></persName>
+							<email>peng.wang@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guanhua</forename><surname>Tian</surname></persName>
+							<email>guanhua.tian@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bo</forename><surname>Xu</surname></persName>
+							<email>boxu@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jun</forename><surname>Zhao</surname></persName>
+							<email>jzhao@nlpr.ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fangyuan</forename><surname>Wang</surname></persName>
+							<email>fangyuan.wang@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hongwei</forename><surname>Hao</surname></persName>
+							<email>hongwei.hao@ia.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Automation</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>100190</addrLine>
+									<settlement>Beijing</settlement>
+									<country key="CN">P.R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Short Text Clustering via Convolutional Neural Networks</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">34A877D364A55834921DF04E79BCE1E1</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.0" ident="GROBID" when="2021-09-13T08:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Short text clustering has become an increasing important task with the popularity of social media, and it is a challenging problem due to its sparseness of text representation. In this paper, we propose a Short Text Clustering via Convolutional neural networks (abbr. to STCC), which is more beneficial for clustering by considering one constraint on learned features through a self-taught learning framework without using any external tags/labels. First, we embed the original keyword features into compact binary codes with a localitypreserving constraint. Then, word embeddings are explored and fed into convolutional neural networks to learn deep feature representations, with the output units fitting the pre-trained binary code in the training process. After obtaining the learned representations, we use K-means to cluster them. Our extensive experimental study on two public short text datasets shows that the deep feature representation learned by our approach can achieve a significantly better performance than some other existing features, such as term frequency-inverse document frequency, Laplacian eigenvectors and average embedding, for clustering.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Different from the normal text clustering, short text clustering has the problem of sparsity <ref type="bibr" target="#b0">(Aggarwal and Zhai, 2012)</ref>. Most words only occur once in each short text, as a result, the term frequencyinverse document frequency (TF-IDF) measure cannot work well in the short text setting. In order to address this problem, some researchers work on expanding and enriching the context of data from Wikipedia <ref type="bibr" target="#b1">(Banerjee et al., 2007)</ref> or an ontology <ref type="bibr" target="#b8">(Fodeh et al., 2011)</ref>. However, these methods involve solid natural language processing (NLP) knowledge and still use high-dimensional representation which may result in a waste of both memory and computation time. Another way to overcome these issues is to explore some sophisticated models to cluster short texts. For example, <ref type="bibr" target="#b26">Yin and Wang (2014)</ref> proposed a Dirichlet multinomial mixture model-based approach for short text clustering and <ref type="bibr" target="#b4">Cai et al. (2005)</ref> clustered texts using Locality Preserving Indexing (LPI) algorithm. Yet how to design an effective model is an open question, and most of these methods directly trained based on bagof-words (BoW) are shallow structures which cannot preserve the accurate semantic similarities.</p><p>With the recent revival of interest in Deep Neural Network (DNN), many researchers have concentrated on using Deep Learning to learn features. <ref type="bibr" target="#b9">Hinton and Salakhutdinov (2006)</ref> use deep auto encoder (DAE) to learn text representation from raw text representation. Recently, with the help of word embedding, neural networks demonstrate their great performance in terms of constructing text representation, such as Recursive Neural Network (RecN-N) <ref type="bibr" target="#b19">(Socher et al., 2011;</ref><ref type="bibr" target="#b20">Socher et al., 2013)</ref> and Recurrent Neural Network (RNN) <ref type="bibr" target="#b14">(Mikolov et al., 2011)</ref>. However, RecNN exhibits high time complexity to construct the textual tree, and RNN, using the layer computed at the last word to represent the text, is a biased model <ref type="bibr" target="#b13">(Lai et al., 2015)</ref>. More recently, Convolution Neural Network (CNN), applying convolutional filters to capture local features, has achieved a better performance in many NLP applications, such as sentence modeling <ref type="bibr" target="#b3">(Blunsom et al., 2014)</ref>, relation classification <ref type="bibr" target="#b27">(Zeng et al., 2014)</ref>, and other traditional NLP tasks <ref type="bibr" target="#b6">(Collobert et al., 2011)</ref>. Most of the previous works focus CNN on solving supervised NLP tasks, while in this paper we aim to explore the power of CNN on one unsupervised NLP task, short text clustering.</p><p>To address the above challenges, we systematically introduce a short text clustering method via con- volutional neural networks. An overall architecture of the proposed method is illustrated in Figure <ref type="figure">1</ref>. Given a short text collection X, the goal of this work is to cluster these texts into clusters C based on the deep feature representation h learned from CNN models. In order to train the CNN models, we, inspired by <ref type="bibr" target="#b28">(Zhang et al., 2010)</ref>, utilize a self-taught learning framework in our work. In particular, we first embed the original features into compact binary code B with a locality-preserving constraint. Then word vectors S projected from word embeddings are fed into a CNN model to learn the feature representation h and the output units are used to fit the pretrained binary code B. After obtaining the learned features, traditional K-means algorithm is employed to cluster texts into clusters C. The main contributions of this paper are summarized as follows: 1). To the best of our knowledge, this is the first attempt to explore the feasibility and effectiveness of combining CNN and traditional semantic constraint, with the help of word embedding to solve one unsupervised learning task, short text clustering.</p><p>2). We learn deep feature representations with locality-preserving constraint through a self-taught learning framework, and our approach do not use any external tags/labels or complicated NLP preprocessing.</p><p>3). We conduct experiments on two short text datasets. The experimental results demonstrate that the proposed method achieves excellent perfor- The remainder of this paper is organized as follows: In Section 2, we first describe the proposed approach STCC and implementation details. Experimental results and analyses are presented in Section 3. In Section 4, we briefly survey several related works. Finally, conclusions are given in the last Section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Convolutional Neural Networks</head><p>In this section, we will briefly review one popular deep convolutional neural network, Dynamic Convolutional Neural Network (DCNN) <ref type="bibr" target="#b3">(Blunsom et al., 2014)</ref>, which is the foundation of our proposed method.</p><p>Taking a neural network with two convolutional layers in Figure <ref type="figure" target="#fig_0">2</ref> as an example, the network transforms raw input text to a powerful representation. Particularly, let X = {x i : x i ∈ R d×1 } i=1,2,...,n denote the set of input n texts, where d is the dimensionality of the original keyword features. Each raw text vector x i is projected into a matrix representation S ∈ R dw×s by looking up a word embedding E, where d w is the dimension of word embedding features and s is the length of one text. We also let W = {W i } i=1,2 and W O denote the weights of the neural networks. The network defines a transformation f (•) : R d×1 → R r×1 (d ≫ r) which trans-forms an raw input text x to a r-dimensional deep representation h. There are three basic operations described as follows:</p><p>-Wide one-dimensional convolution This operation is applied to an individual row of the sentence matrix S ∈ R dw×s , and yields a set of sequences C i ∈ R s+m−1 where m is the width of convolutional filter.</p><p>-Folding In this operation, every two rows in a feature map component-wise are simply summed. For a map of d w rows, folding returns a map of d w /2 rows, thus halving the size of the representation.</p><p>-Dymantic k-max pooling Given a fixed pooling parameter k top for the topmost convolutional layer, the parameter k of k-max pooling in the l-th convolutional layer can be computed as follows:</p><formula xml:id="formula_0">k l = max(k top , ⌈ L − l L s ⌉ ),<label>(1)</label></formula><p>where L is the total number of convolutional layers in the network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Locality-preserving Constraint</head><p>Here, we first pre-train binary code B based on the keyword features with a locality-preserving constraint, and choose Laplacian affinity loss, also used in some previous works <ref type="bibr" target="#b25">(Weiss et al., 2009;</ref><ref type="bibr" target="#b28">Zhang et al., 2010)</ref>. The optimization can be written as:</p><formula xml:id="formula_1">min B n ∑ i,j=1 S ij ∥b i − b j ∥ 2 F s.t. B ∈ {−1, 1} n×q , B T 1 = 0, B T B = I,<label>(2)</label></formula><p>where S ij is the pairwise similarity between texts x i and x j , and ∥•∥ F is the Frobenius norm. The problem is relaxed by discarding B ∈ {−1, 1} n×q , and the q-dimensional real-valued vectors B can be learned from Laplacian Eigenmap. Then, we get the binary code B via the media vector median( B). In particular, we construct the n × n local similarity matrix S by using heat kernel as follows:</p><formula xml:id="formula_2">S ij = { exp(− ∥x i −x j ∥ 2 2σ 2 ), if x i ∈N k (x j ) or vice versa 0, otherwise<label>(3)</label></formula><p>where, σ is a tuning parameter (default is 1) and N k (x) represents the set of k-nearest-neighbors of x.</p><p>The last layer of CNN is an output layer as follows:</p><formula xml:id="formula_3">O = W O h,<label>(4)</label></formula><p>where, h is the deep feature representation, O ∈ R q is the output vector and W O ∈ R q×r is weight matrix. In order to fit the pre-trained binary code B, we apply q logistic operations to the output vector O as follows:</p><formula xml:id="formula_4">p i = exp(O i ) 1 + exp(O i )</formula><p>.</p><p>(5)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Learning</head><p>All of the parameters to be trained are defined as θ.</p><formula xml:id="formula_5">θ = {E, W, W O }.<label>(6)</label></formula><p>Given the training text collection X, and the pretrained binary code B, the log likelihood of the parameters can be written down as follows:</p><formula xml:id="formula_6">J(θ) = n ∑ i=1 log p(b i |x i , θ). (<label>7</label></formula><formula xml:id="formula_7">)</formula><p>Following the previous work <ref type="bibr" target="#b3">(Blunsom et al., 2014)</ref>, we train the network with mini-batches by back-propagation and perform the gradient-based optimization using the Adagrad update rule <ref type="bibr" target="#b7">(Duchi et al., 2011)</ref>. For regularization, we employ dropout with 50% rate to the penultimate layer <ref type="bibr" target="#b3">(Blunsom et al., 2014;</ref><ref type="bibr" target="#b12">Kim, 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">K-means for Clustering</head><p>With the given short texts, we first utilize the trained deep neural network to obtain the semantic representations h, and then employ traditional K-means algorithm to perform clustering.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Experiments</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Datasets</head><p>We test our algorithm on two public text datasets, and the summary statistics of the datasets are described in Table <ref type="table" target="#tab_1">1</ref>.</p><p>SearchSnippets 1 . This dataset was selected from the results of web search transaction using predefined phrases of 8 different domains <ref type="bibr">(Phan et al., 2008)</ref>.</p><p>StackOverflow 2 . We use the challenge data published in Kaggle.com 3 . This dataset consists 3,370,528 samples through July 31st, 2012 to August 14, 2012. In our experiments, we randomly select 20, 000 question titles from 20 different tags.</p><p>For these datasets, we do not remove any stop words or symbols in the text. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Pre-trained Word Vectors</head><p>We use the publicly available word2vec tool to train word embeddings, and the most parameters are set as same as <ref type="bibr" target="#b15">Mikolov et al. (2013)</ref> to train word vectors on Google News setting 4 , excepts of vector dimensionality using 48 and minimize count using 5. For SearchSnippets, we train word vectors on Wikipedia dumps 5 . For StackOverflow, we train word vectors on the whole corpus of the Stack-Overflow dataset described above which includes the question titles and post contents. The coverage of these learned vectors on two datasets are listed in  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Comparisons</head><p>We compare the proposed method with some most popular clustering algorithms:</p><p>• K-means K-means <ref type="bibr" target="#b24">(Wagstaff et al., 2001)</ref> on original keyword features which are respectively weighted with term frequency (TF) and term frequency-inverse document frequency (TF-IDF).</p><p>• Spectral Clustering This baseline <ref type="bibr" target="#b2">(Belkin and Niyogi, 2001)</ref> uses Laplacian Eigenmaps (LE) and subsequently employ K-means algorithm.</p><p>The dimension of subspace is default set to the number of clusters <ref type="bibr" target="#b16">(Ng et al., 2002;</ref><ref type="bibr" target="#b4">Cai et al., 2005)</ref>, we also iterate the dimensions ranging from 10:10:200 to get the best performance, that is 20 on SearchSnippets and 70 on Stack-Overflow in our expriments.</p><p>• Average Embedding K-means on the weighted average of the word embeddings which are respectively weighted with TF and TF-IDF. <ref type="bibr" target="#b10">Huang et al. (2012)</ref> also used this strategy as the global context in their task and <ref type="bibr" target="#b13">Lai et al. (2015)</ref> used this in text classification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Evaluation Metrics</head><p>The clustering performance is evaluated by comparing the clustering results of texts with the tags/labels provided by the text corpus. Two metrics, the accuracy (ACC) and the normalized mutual information metric (NMI), are used to measure the clustering performance <ref type="bibr" target="#b4">(Cai et al., 2005;</ref><ref type="bibr" target="#b11">Huang et al., 2014)</ref>.</p><p>Given a text x i , let c i and y i be the obtained cluster label and the label provided by the corpus, respectively. Accuracy is defined as:</p><formula xml:id="formula_8">ACC = ∑ n i=1 δ(y i , map(c i )) n ,<label>(8)</label></formula><p>where, n is the total number of texts, δ(x, y) is the indicator function that equals one if x = y and equals zero otherwise, and map(c i ) is the permutation mapping function that maps each cluster label c i to the equivalent label from the text data by Hungarian algorithm <ref type="bibr" target="#b17">(Papadimitriou and Steiglitz, 1998)</ref>. Normalized mutual information <ref type="bibr" target="#b5">(Chen et al., 2011)</ref> between tag/label set Y and cluster set C is a popular metric used for evaluating clustering tasks. It is defined as follows:</p><formula xml:id="formula_9">N M I(Y, C) = M I(Y, C) √ H(Y)H(C) ,<label>(9)</label></formula><p>where, M I(Y, C) is the mutual information between Y and C, H(•) is entropy and the denominator √ H(Y)H(C) is used for normalizing the mutual information to be in the range of [0, 1].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Hyperparameter Settings</head><p>In our experiments, the most of parameters are set uniformly for these datasets. Following previous study <ref type="bibr" target="#b4">(Cai et al., 2005)</ref>, the parameter k in Eq. 3 is fixed to 15 when constructing the graph Laplacians in our approach, as well as in spectral clustering. For CNN model, we manually choose a same architecture for the two datasets. More specifically, in our experiments, the networks has two convolutional layers similar as the example in Figure <ref type="figure" target="#fig_0">2</ref>. The widths of the convolutional filters are both 3. The value of k for the top k-max pooling is 5. The number of feature maps at the first convolutional layer is 12, and 8 feature maps at the second convolutional layer. Both those two convolutional layers are followed by a folding layer. We further set the dimension of word embeddings d w as 48. Finally, the dimension of the deep feature representation r is fixed to 480. Moreover, we set the learning rate λ as 0.01 and the mini-batch training size 200. The output size q in Eq. 4 and Eq. 2 is set same as the best dimensions of subspace in the baseline method, spectral clustering, as described in Section 3.3.</p><p>For initial centroids have significant impact on clustering results when utilizing the K-means algorithms, we repeat K-means for multiple times with random initial centroids (specifically, 100 times for statistical significance). The final results reported are the average of 5 trials with all clustering methods on two text datasets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Quantitative Results</head><p>Here, we firstly evaluate the influence of the iteration number in our method. Figure <ref type="figure" target="#fig_1">3</ref> shows the change of ACC and NMI as the iteration number increases on two text datasets. It can be found that the performance rises steadily in the first ten iterations, which demonstrates that our method is effective. In the period of 10∼20 iterations, ACC and NMI become relatively stable on both two texts. In the following experiments, we report the results after 10 iterations.</p><p>We report ACC and NMI performance of all the clustering methods in Table <ref type="table" target="#tab_4">3</ref>. The experimen- tal results show that Spectral Clustering and Average Embedding significantly better than K-means on two datasets. It is because K-means directly construct the similarity structure from the original keyword feature space while Average Embedding and Spectral Clustering extract the semantic features using shallow structure models. Compared with the best baselines, the proposed STCC extracting deep learned representation from convolutional neural network achieves large improvement on these datasets by 2.33%/4.86% and 14.23%/10.01% (ACC/NMI) on SearchSnippets and StackOverflow, respectively. Note that TF-IDF weighting gives a more remarkable improvement for K-means, while TF weighting works better than TF-IDF weighting for Average Embedding. Maybe the reason is that pre-trained word embeddings encode some useful information from external corpus and are able to get even better results without TF-IDF weighting.</p><p>In Figure <ref type="figure">4</ref> and Figure <ref type="figure">5</ref>, we further report 2dimensional embeddings using stochastic neighbor embedding (Van der Maaten and Hinton, 2008) 6 of the feature representations used in the clustering methods. We can see that the 2-dimensional embedding results of deep features representation learned from our STCC show more clear-cut margins among different semantic topics (that is, tags/labels) on two short text datasets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Related Work</head><p>In this section, we review the related work from the following two perspectives: short text clustering and deep neural networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Short Text Clustering</head><p>There have been several studies that attempted to overcome the sparseness of short representation.  <ref type="formula">2005</ref>) applied the LPI algorithm for text clustering. Moreover, some studies both focus the above two streams. For example, <ref type="bibr" target="#b21">Tang et al. (2012)</ref> proposed a novel framework which performs multi-language knowledge integration and feature reduction simultaneously through matrix factorization techniques. However, the former works need solid NLP knowledge while the later works are shallow structures which can not fully capture accurate semantic similarities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SearchSnippets</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Deep Neural Networks</head><p>With the recent revival of interest in DNN, many researchers have concentrated on using Deep Learning to learn features. <ref type="bibr" target="#b9">Hinton and Salakhutdinov (2006)</ref> use DAE to learn text representation. During the fine-tuning procedure, they use backpropagation to find codes that are good at reconstructing the wordcount vector.</p><p>Recently, researchers propose to use external corpus to learn a distributed representation for each word, called word embedding <ref type="bibr" target="#b22">(Turian et al., 2010)</ref>, to improve DNN performance on NLP tasks. The skip-gram and continuous bag-of-words models of <ref type="bibr" target="#b15">(Mikolov et al., 2013)</ref> propose a simple singlelayer architecture based on the inner product between two word vectors, and Jeffrey <ref type="bibr" target="#b18">Pennington et al. (2014)</ref> introduce a new model for word representation, called GloVe, which captures the global corpus statistics.</p><p>Based on word embedding, neural networks can capture true meaningful syntactic and semantic regularities, such as RecNN <ref type="bibr" target="#b19">(Socher et al., 2011;</ref><ref type="bibr" target="#b20">Socher et al., 2013)</ref> and RNN <ref type="bibr" target="#b14">(Mikolov et al., 2011)</ref>. However, RecNN exhibits high time complexity to construct the textual tree, and RNN, using the layer computed at the last word to represent the text, is a biased model. Recently, CNN, applying convolving filters to local features, has been successfully exploited for many supervised NLP learning tasks as described in Section 1. This paper, to our best knowledge, is the first time to explore the power of CNN and word embedding to solve one unsupervised learning task, short text clustering.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusions</head><p>In this paper, we proposed a short text clustering based on deep feature representation learned from CNN without using any external tags/labels and complicated NLP pre-processing. As experimental study shows that STCC can achieve significantly better performance than the baseline methods.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Dynamic convolutional neural network used for extracting deep feature representation</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Influence of the iteration number on two text datasets.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 :</head><label>1</label><figDesc>Statistics for the text datasets. C: the number of classes; Num: the dataset size; L(mean/max): the mean and max length of texts and |V |: the vocabulary size.</figDesc><table><row><cell cols="4">Dataset C Number L(mean/max)</cell><cell>|V |</cell></row><row><cell cols="2">Snippets 8</cell><cell>12340</cell><cell>17.88/38</cell><cell>30642</cell></row><row><cell>Stack</cell><cell cols="2">20 20000</cell><cell>8.31/34</cell><cell>22956</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>, and the words not present in the set of pre-trained words are initialized randomly.</figDesc><table><row><cell>Dataset</cell><cell>|V |</cell><cell>|T |</cell></row><row><cell cols="3">SearchSnippets 23826 (77%) 211575 (95%)</cell></row><row><cell cols="3">StackOverflow 19639 (85%) 162998 (97%)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 :</head><label>2</label><figDesc>Coverage of word embeddings on two datasets. |V | is the vocabulary size and |T | is the number of tokens.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 :</head><label>3</label><figDesc>Comparison of ACC and NMI of clustering methods on two short text datasets. For Spectral Clustering, the dimension of subspace are set to the number of clusters, and Spectral Clustering (best) get the best performance by iterating the dimensions ranging from 10:10:200. More details about the baseline setting are described in Section 3.3</figDesc><table><row><cell></cell><cell>ACC (%)</cell><cell>NMI (%)</cell><cell>ACC (%)</cell><cell>NMI (%)</cell></row><row><cell>K-means (TF)</cell><cell cols="4">24.75±2.22 9.03±2.30 13.51±2.18 7.81±2.56</cell></row><row><cell>K-means (TF-IDF)</cell><cell cols="4">33.77±3.92 21.40±4.35 20.31±3.95 15.64±4.68</cell></row><row><cell>Spectral Clustering</cell><cell cols="4">63.90±5.36 48.44±2.39 27.55±0.93 21.03±0.37</cell></row><row><cell>Spectral Clustering (best)</cell><cell cols="4">74.76±5.08 58.30±1.97 37.17±1.62 26.27±0.86</cell></row><row><cell cols="5">Average Embedding (TF-IDF) 62.05±5.27 46.64±1.87 37.02±1.29 35.58±0.84</cell></row><row><cell>Average Embedding (TF)</cell><cell cols="4">64.63±4.84 50.59±1.71 37.22±1.57 38.43±1.13</cell></row><row><cell></cell><cell cols="4">77.09±3.99 63.16±1.56 51.13±2.80 49.03±1.46</cell></row><row><cell cols="2">One way is to expand and enrich the context of da-</cell><cell></cell><cell></cell></row><row><cell cols="2">ta. For example, Banerjee et al. (2007) proposed</cell><cell></cell><cell></cell></row><row><cell cols="2">a method of improving the accuracy of short tex-</cell><cell></cell><cell></cell></row><row><cell cols="2">t clustering by enriching their representation with</cell><cell></cell><cell></cell></row><row><cell cols="2">additional features from Wikipedia, and Fodeh et</cell><cell></cell><cell></cell></row><row><cell cols="2">al. (2011) incorporate semantic knowledge from an</cell><cell></cell><cell></cell></row><row><cell cols="2">ontology into text clustering. Another way is</cell><cell></cell><cell></cell></row><row><cell cols="2">explore some sophisticated models to cluster short</cell><cell></cell><cell></cell></row><row><cell cols="2">text. For example, Yin and Wang (2014) proposed</cell><cell></cell><cell></cell></row><row><cell cols="2">a Dirichlet multinomial mixture model-based ap-</cell><cell></cell><cell></cell></row><row><cell cols="2">proach for short text clustering and Cai et al. (</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1">http://jwebpro.sourceforge.net/data-web-snippets.tar.gz.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">https://github.com/jacoxu/StackOverflow. 3 https://www.kaggle.com/c/predict-closed-questions-onstack-overflow/download/train.zip. 4 https://groups.google.com/forum/#!topic/word2vectoolkit/lxbl MB29Ic. 5 http://dumps.wikimedia.org/enwiki/latest/enwiki-latestpages-articles.xml.bz2.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank anonymous reviewers for their comments, and this work is supported by the National Natural</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A survey of text clustering algorithms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Charu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chengxiang</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zhai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mining Text Data</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="77" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Clustering short texts using wikipedia</title>
+		<author>
+			<persName><forename type="first">Somnath</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Krishnan</forename><surname>Ramanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajay</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1277741.1277909</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 30th annual international ACM SIGIR conference on Research and development in information retrieval - SIGIR &apos;07</title>
+				<meeting>the 30th annual international ACM SIGIR conference on Research and development in information retrieval - SIGIR &apos;07</meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="787" to="788" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Laplacian eigenmaps and spectral techniques for embedding and clustering</title>
+		<author>
+			<persName><forename type="first">Mikhail</forename><surname>Belkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Partha</forename><surname>Niyogi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NIPS</title>
+				<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="585" to="591" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A convolutional neural network for modelling sentences</title>
+		<author>
+			<persName><forename type="first">Phil</forename><surname>Blunsom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Grefenstette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nal</forename><surname>Kalchbrenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACL</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Document clustering using locality preserving indexing. Knowledge and Data Engineering</title>
+		<author>
+			<persName><forename type="first">Deng</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaofei</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiawei</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1624" to="1637" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Parallel spectral clustering in distributed systems. Pattern Analysis and Machine Intelligence</title>
+		<author>
+			<persName><forename type="first">Wen-Yen</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yangqiu</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hongjie</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chih-Jen</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="568" to="586" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Natural language processing (almost) from scratch</title>
+		<author>
+			<persName><forename type="first">Ronan</forename><surname>Collobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Weston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Léon</forename><surname>Bottou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Karlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koray</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Kuksa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMLR</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2493" to="2537" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Adaptive subgradient methods for online learning and stochastic optimization</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Duchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elad</forename><surname>Hazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoram</forename><surname>Singer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMLR</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2121" to="2159" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On ontology-driven document clustering using core semantic features</title>
+		<author>
+			<persName><forename type="first">Samah</forename><surname>Fodeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bill</forename><surname>Punch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pang-Ning</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10115-010-0370-4</idno>
+		<idno type="ark">ark:/67375/VQC-NTR71K0B-8</idno>
+		<idno type="istexId">3AD499C61A3983B6D8ADA7CDA6E7C8D551435D13</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge and Information Systems</title>
+		<title level="j" type="abbrev">Knowl Inf Syst</title>
+		<idno type="ISSN">0219-1377</idno>
+		<idno type="ISSNe">0219-3116</idno>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="395" to="421" />
+			<date type="published" when="2011-01-29" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Reducing the dimensionality of data with neural networks</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Geoffrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruslan R</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Salakhutdinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">313</biblScope>
+			<biblScope unit="issue">5786</biblScope>
+			<biblScope unit="page" from="504" to="507" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Improving word representations via global context and multiple word prototypes</title>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christopher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew Y</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACL</title>
+				<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="873" to="882" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Deep Embedding Network for Clustering</title>
+		<author>
+			<persName><forename type="first">Peihao</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liang</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/icpr.2014.272</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2014 22nd International Conference on Pattern Recognition</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-08" />
+			<biblScope unit="page" from="1532" to="1537" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">Yoon</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1408.5882</idno>
+		<title level="m">Convolutional neural networks for sentence classification</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Recurrent convolutional neural networks for text classification</title>
+		<author>
+			<persName><forename type="first">Siwei</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Liheng</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI</title>
+				<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Context dependent recurrent neural network language model</title>
+		<author>
+			<persName><forename type="first">Tomas</forename><surname>Mikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><surname>Zweig</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/slt.2012.6424228</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2012 IEEE Spoken Language Technology Workshop (SLT)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2012-12" />
+			<biblScope unit="page" from="5528" to="5531" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Distributed representations of words and phrases and their compositionality</title>
+		<author>
+			<persName><forename type="first">Tomas</forename><surname>Mikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ilya</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kai</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeff</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NIPS</title>
+				<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="3111" to="3119" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On spectral clustering: Analysis and an algorithm</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">I</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yair</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NIPS</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="849" to="856" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Combinatorial optimization: algorithms and complexity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Christos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenneth</forename><surname>Papadimitriou</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Steiglitz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Courier Corporation</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Learning to classify short and sparse text &amp; web with hidden topics from large-scale data collections</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><surname>Pennington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher D</forename><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">WWW</title>
+				<editor>
+			<persName><surname>Emnlp</surname></persName>
+			<persName><forename type="first">Le-Minh</forename><surname>Xuan-Hieu Phan</surname></persName>
+			<persName><forename type="first">Susumu</forename><surname>Nguyen</surname></persName>
+			<persName><surname>Horiguchi</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="91" to="100" />
+		</imprint>
+	</monogr>
+	<note>Glove: Global vectors for word representation</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Semisupervised recursive autoencoders for predicting sentiment distributions</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><surname>Pennington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher D</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In EMNLP</title>
+		<imprint>
+			<biblScope unit="page" from="151" to="161" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Recursive deep models for semantic compositionality over a sentiment treebank</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Perelygin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christopher</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Andrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Potts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">EMNLP</title>
+				<imprint>
+			<publisher>Citeseer</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">1631</biblScope>
+			<biblScope unit="page">1642</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Enriching short text representation in microblog for clustering</title>
+		<author>
+			<persName><forename type="first">Jiliang</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xufei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huiji</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xia</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huan</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers of Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="101" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Word representations: a simple and general method for semi-supervised learning</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Turian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lev</forename><surname>Ratinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACL</title>
+				<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="384" to="394" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Visualizing data using t-sne</title>
+		<author>
+			<persName><forename type="first">Laurens</forename><surname>Van Der Maaten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JMLR</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Constrained k-means clustering with background knowledge</title>
+		<author>
+			<persName><forename type="first">Kiri</forename><surname>Wagstaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claire</forename><surname>Cardie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seth</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Schrödl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICML</title>
+				<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="577" to="584" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Multidimensional Spectral Hashing</title>
+		<author>
+			<persName><forename type="first">Yair</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rob</forename><surname>Fergus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Torralba</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-33715-4_25</idno>
+		<ptr type="open-access" target="https://dspace.mit.edu/bitstream/1721.1/121970/2/msh_eccv12.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision – ECCV 2012</title>
+				<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="340" to="353" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A dirichlet multinomial mixture model-based approach for short text clustering</title>
+		<author>
+			<persName><forename type="first">Jianhua</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jianyong</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">SIGKDD</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="233" to="242" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Relation classification via convolutional deep neural network</title>
+		<author>
+			<persName><forename type="first">Daojian</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siwei</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guangyou</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">COLING</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="2335" to="2344" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Self-taught hashing for fast similarity search</title>
+		<author>
+			<persName><forename type="first">Dell</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deng</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jinsong</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">SI-GIR</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="18" to="25" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

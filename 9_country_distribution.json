@@ -1,0 +1,282 @@
+[
+    {
+        "name": "USA",
+        "value": 1172
+    },
+    {
+        "name": "China",
+        "value": 436
+    },
+    {
+        "name": "UK",
+        "value": 283
+    },
+    {
+        "name": "Germany",
+        "value": 197
+    },
+    {
+        "name": "Other Countries or Regions",
+        "value": 193
+    },
+    {
+        "name": "Japan",
+        "value": 191
+    },
+    {
+        "name": "Italy",
+        "value": 173
+    },
+    {
+        "name": "France",
+        "value": 135
+    },
+    {
+        "name": "Canada",
+        "value": 130
+    },
+    {
+        "name": "South Korea",
+        "value": 114
+    },
+    {
+        "name": "Spain",
+        "value": 110
+    },
+    {
+        "name": "Iran",
+        "value": 101
+    },
+    {
+        "name": "Netherlands",
+        "value": 82
+    },
+    {
+        "name": "Australia",
+        "value": 80
+    },
+    {
+        "name": "Brazil",
+        "value": 69
+    },
+    {
+        "name": "India",
+        "value": 60
+    },
+    {
+        "name": "Switzerland",
+        "value": 52
+    },
+    {
+        "name": "Taiwan, China",
+        "value": 49
+    },
+    {
+        "name": "Russia",
+        "value": 40
+    },
+    {
+        "name": "Sweden",
+        "value": 40
+    },
+    {
+        "name": "Belgium",
+        "value": 38
+    },
+    {
+        "name": "Singapore",
+        "value": 38
+    },
+    {
+        "name": "Israel",
+        "value": 32
+    },
+    {
+        "name": "Ireland",
+        "value": 28
+    },
+    {
+        "name": "Poland",
+        "value": 28
+    },
+    {
+        "name": "Houston",
+        "value": 25
+    },
+    {
+        "name": "Egypt",
+        "value": 22
+    },
+    {
+        "name": "Malaysia",
+        "value": 19
+    },
+    {
+        "name": "Portugal",
+        "value": 19
+    },
+    {
+        "name": "Austria",
+        "value": 16
+    },
+    {
+        "name": "Turkey",
+        "value": 16
+    },
+    {
+        "name": "Czech Republic",
+        "value": 15
+    },
+    {
+        "name": "Denmark",
+        "value": 15
+    },
+    {
+        "name": "Finland",
+        "value": 12
+    },
+    {
+        "name": "Chile",
+        "value": 10
+    },
+    {
+        "name": "Mexico",
+        "value": 10
+    },
+    {
+        "name": "Greece",
+        "value": 9
+    },
+    {
+        "name": "Slovenia",
+        "value": 7
+    },
+    {
+        "name": "South Africa",
+        "value": 7
+    },
+    {
+        "name": "Romania",
+        "value": 6
+    },
+    {
+        "name": "Serbia",
+        "value": 6
+    },
+    {
+        "name": "Argentina",
+        "value": 5
+    },
+    {
+        "name": "New Zealand",
+        "value": 5
+    },
+    {
+        "name": "Norway",
+        "value": 5
+    },
+    {
+        "name": "Brasil",
+        "value": 4
+    },
+    {
+        "name": "Hungary",
+        "value": 4
+    },
+    {
+        "name": "Pakistan",
+        "value": 4
+    },
+    {
+        "name": "Slovakia",
+        "value": 4
+    },
+    {
+        "name": "Espana",
+        "value": 3
+    },
+    {
+        "name": "Indonesia",
+        "value": 3
+    },
+    {
+        "name": "Lebanon",
+        "value": 3
+    },
+    {
+        "name": "Luxembourg",
+        "value": 3
+    },
+    {
+        "name": "Qatar",
+        "value": 3
+    },
+    {
+        "name": "Thailand",
+        "value": 3
+    },
+    {
+        "name": "Connecticut",
+        "value": 2
+    },
+    {
+        "name": "Cyprus",
+        "value": 2
+    },
+    {
+        "name": "Vietnam",
+        "value": 2
+    },
+    {
+        "name": "Bangladesh",
+        "value": 1
+    },
+    {
+        "name": "Itlay",
+        "value": 1
+    },
+    {
+        "name": "Kazakhstan",
+        "value": 1
+    },
+    {
+        "name": "Kosovo",
+        "value": 1
+    },
+    {
+        "name": "Latvia",
+        "value": 1
+    },
+    {
+        "name": "Lithuania",
+        "value": 1
+    },
+    {
+        "name": "Peru",
+        "value": 1
+    },
+    {
+        "name": "Saudi Arabia",
+        "value": 1
+    },
+    {
+        "name": "Slovak",
+        "value": 1
+    },
+    {
+        "name": "Sri Lanka",
+        "value": 1
+    },
+    {
+        "name": "Ukraine",
+        "value": 1
+    },
+    {
+        "name": "United Arab Emirates",
+        "value": 1
+    },
+    {
+        "name": "Uruguay",
+        "value": 1
+    }
+]

@@ -1,0 +1,1550 @@
+[
+    {
+        "af_id": 1,
+        "af_name": "University of California",
+        "number_of_papers": 84,
+        "rank_of_papers": 1
+    },
+    {
+        "af_id": 2,
+        "af_name": "University of Texas",
+        "number_of_papers": 59,
+        "rank_of_papers": 2
+    },
+    {
+        "af_id": 3,
+        "af_name": "University of Pennsylvania",
+        "number_of_papers": 50,
+        "rank_of_papers": 3
+    },
+    {
+        "af_id": 4,
+        "af_name": "IRCCS",
+        "number_of_papers": 41,
+        "rank_of_papers": 4
+    },
+    {
+        "af_id": 5,
+        "af_name": "Harvard Medical School",
+        "number_of_papers": 40,
+        "rank_of_papers": 5
+    },
+    {
+        "af_id": 6,
+        "af_name": "College of Medicine",
+        "number_of_papers": 35,
+        "rank_of_papers": 6
+    },
+    {
+        "af_id": 7,
+        "af_name": "Stanford University",
+        "number_of_papers": 31,
+        "rank_of_papers": 7
+    },
+    {
+        "af_id": 8,
+        "af_name": "Mayo Clinic",
+        "number_of_papers": 30,
+        "rank_of_papers": 8
+    },
+    {
+        "af_id": 9,
+        "af_name": "University College London",
+        "number_of_papers": 30,
+        "rank_of_papers": 8
+    },
+    {
+        "af_id": 10,
+        "af_name": "National Institutes of Health",
+        "number_of_papers": 28,
+        "rank_of_papers": 9
+    },
+    {
+        "af_id": 11,
+        "af_name": "Zhejiang University",
+        "number_of_papers": 26,
+        "rank_of_papers": 10
+    },
+    {
+        "af_id": 12,
+        "af_name": "Baylor College of Medicine",
+        "number_of_papers": 24,
+        "rank_of_papers": 11
+    },
+    {
+        "af_id": 13,
+        "af_name": "University of Pittsburgh",
+        "number_of_papers": 22,
+        "rank_of_papers": 12
+    },
+    {
+        "af_id": 14,
+        "af_name": "Institut National de la Sante et de la Recherche Medicale",
+        "number_of_papers": 21,
+        "rank_of_papers": 13
+    },
+    {
+        "af_id": 15,
+        "af_name": "CNR",
+        "number_of_papers": 20,
+        "rank_of_papers": 14
+    },
+    {
+        "af_id": 16,
+        "af_name": "Loughborough University",
+        "number_of_papers": 20,
+        "rank_of_papers": 14
+    },
+    {
+        "af_id": 17,
+        "af_name": "Shanghai Jiao Tong University",
+        "number_of_papers": 19,
+        "rank_of_papers": 15
+    },
+    {
+        "af_id": 18,
+        "af_name": "University of Michigan",
+        "number_of_papers": 19,
+        "rank_of_papers": 15
+    },
+    {
+        "af_id": 19,
+        "af_name": "University of Minnesota",
+        "number_of_papers": 19,
+        "rank_of_papers": 15
+    },
+    {
+        "af_id": 20,
+        "af_name": "University of Toronto",
+        "number_of_papers": 19,
+        "rank_of_papers": 15
+    },
+    {
+        "af_id": 21,
+        "af_name": "Fudan University",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 22,
+        "af_name": "King's College London",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 23,
+        "af_name": "Osaka University",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 24,
+        "af_name": "University Medical Center",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 25,
+        "af_name": "University of Miami",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 26,
+        "af_name": "University of Sao Paulo",
+        "number_of_papers": 18,
+        "rank_of_papers": 16
+    },
+    {
+        "af_id": 27,
+        "af_name": "Emory University",
+        "number_of_papers": 17,
+        "rank_of_papers": 17
+    },
+    {
+        "af_id": 28,
+        "af_name": "National University of Ireland",
+        "number_of_papers": 17,
+        "rank_of_papers": 17
+    },
+    {
+        "af_id": 29,
+        "af_name": "Johns Hopkins University",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 30,
+        "af_name": "Leiden University Medical Center",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 31,
+        "af_name": "Seoul National University",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 32,
+        "af_name": "Sichuan University",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 33,
+        "af_name": "Tehran University of Medical Sciences",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 34,
+        "af_name": "University of Washington",
+        "number_of_papers": 16,
+        "rank_of_papers": 18
+    },
+    {
+        "af_id": 35,
+        "af_name": "Fourth Military Medical University",
+        "number_of_papers": 15,
+        "rank_of_papers": 19
+    },
+    {
+        "af_id": 36,
+        "af_name": "Karolinska Institute",
+        "number_of_papers": 15,
+        "rank_of_papers": 19
+    },
+    {
+        "af_id": 37,
+        "af_name": "University of Edinburgh",
+        "number_of_papers": 15,
+        "rank_of_papers": 19
+    },
+    {
+        "af_id": 38,
+        "af_name": "Cedars-Sinai Heart Institute",
+        "number_of_papers": 14,
+        "rank_of_papers": 20
+    },
+    {
+        "af_id": 39,
+        "af_name": "Memorial Sloan Kettering Cancer Center",
+        "number_of_papers": 14,
+        "rank_of_papers": 20
+    },
+    {
+        "af_id": 40,
+        "af_name": "University of British Columbia",
+        "number_of_papers": 14,
+        "rank_of_papers": 20
+    },
+    {
+        "af_id": 41,
+        "af_name": "University of South Florida",
+        "number_of_papers": 14,
+        "rank_of_papers": 20
+    },
+    {
+        "af_id": 42,
+        "af_name": "Yale University",
+        "number_of_papers": 14,
+        "rank_of_papers": 20
+    },
+    {
+        "af_id": 43,
+        "af_name": "Duke University",
+        "number_of_papers": 13,
+        "rank_of_papers": 21
+    },
+    {
+        "af_id": 44,
+        "af_name": "National University of Singapore",
+        "number_of_papers": 13,
+        "rank_of_papers": 21
+    },
+    {
+        "af_id": 45,
+        "af_name": "University of Ottawa",
+        "number_of_papers": 13,
+        "rank_of_papers": 21
+    },
+    {
+        "af_id": 46,
+        "af_name": "Chinese Academy of Sciences",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 47,
+        "af_name": "Cleveland Clinic",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 48,
+        "af_name": "Hannover Medical School",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 49,
+        "af_name": "Monash University",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 50,
+        "af_name": "Shahid Beheshti University of Medical Sciences",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 51,
+        "af_name": "University of Cambridge",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 52,
+        "af_name": "University of Hong Kong",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 53,
+        "af_name": "Wake Forest University",
+        "number_of_papers": 12,
+        "rank_of_papers": 22
+    },
+    {
+        "af_id": 54,
+        "af_name": "Cambridge",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 55,
+        "af_name": "Jilin University",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 56,
+        "af_name": "Kyoto University",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 57,
+        "af_name": "Massachusetts General Hospital",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 58,
+        "af_name": "University Health Network",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 59,
+        "af_name": "University Medical Center Utrecht",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 60,
+        "af_name": "University of Oxford",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 61,
+        "af_name": "University of Tokyo",
+        "number_of_papers": 11,
+        "rank_of_papers": 23
+    },
+    {
+        "af_id": 62,
+        "af_name": "Capital Medical University",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 63,
+        "af_name": "Cedars-Sinai Medical Center",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 64,
+        "af_name": "Columbia University",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 65,
+        "af_name": "ETH Zurich",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 66,
+        "af_name": "Sun Yat-Sen University",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 67,
+        "af_name": "Tabriz University of Medical Sciences",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 68,
+        "af_name": "University Colllege London",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 69,
+        "af_name": "University of Birmingham",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 70,
+        "af_name": "University of Louisville",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 71,
+        "af_name": "University of North Carolina",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 72,
+        "af_name": "University of Wisconsin",
+        "number_of_papers": 10,
+        "rank_of_papers": 24
+    },
+    {
+        "af_id": 73,
+        "af_name": "Catholic University of Korea",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 74,
+        "af_name": "Children's Hospital of Philadelphia",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 75,
+        "af_name": "Nagoya University",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 76,
+        "af_name": "Nanjing University",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 77,
+        "af_name": "Northwestern University",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 78,
+        "af_name": "Ohio State University",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 79,
+        "af_name": "Southeast University",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 80,
+        "af_name": "University Hospital Basel",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 81,
+        "af_name": "University of Florida",
+        "number_of_papers": 9,
+        "rank_of_papers": 25
+    },
+    {
+        "af_id": 82,
+        "af_name": "China Medical University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 83,
+        "af_name": "Harbin Medical University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 84,
+        "af_name": "Heidelberg University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 85,
+        "af_name": "Huazhong University of Science and Technology",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 86,
+        "af_name": "Icahn School of Medicine at Mount Sinai",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 87,
+        "af_name": "Imperial College London",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 88,
+        "af_name": "Southern Medical University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 89,
+        "af_name": "Thomas Jefferson University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 90,
+        "af_name": "University of Manchester",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 91,
+        "af_name": "University of Melbourne",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 92,
+        "af_name": "Zhengzhou University",
+        "number_of_papers": 8,
+        "rank_of_papers": 26
+    },
+    {
+        "af_id": 93,
+        "af_name": "Cornell University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 94,
+        "af_name": "Division of Cardiology",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 95,
+        "af_name": "Goethe University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 96,
+        "af_name": "Hokkaido University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 97,
+        "af_name": "Indiana University School of Medicine",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 98,
+        "af_name": "Keio University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 99,
+        "af_name": "McGill University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 100,
+        "af_name": "Nanjing Medical University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 101,
+        "af_name": "National Cancer Institute",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 102,
+        "af_name": "National Taiwan University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 103,
+        "af_name": "Ottawa Hospital Research Institute",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 104,
+        "af_name": "Radboud University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 105,
+        "af_name": "San Raffaele Scientific Institute",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 106,
+        "af_name": "Shandong University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 107,
+        "af_name": "Sungkyunkwan University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 108,
+        "af_name": "Technology and Research (A*STAR)",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 109,
+        "af_name": "Tianjin Medical University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 110,
+        "af_name": "Universite Paris Descartes",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 111,
+        "af_name": "University of Adelaide",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 112,
+        "af_name": "University of Milan",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 113,
+        "af_name": "University of Sydney",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 114,
+        "af_name": "Washington University",
+        "number_of_papers": 7,
+        "rank_of_papers": 27
+    },
+    {
+        "af_id": 115,
+        "af_name": "Albert Einstein College of Medicine",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 116,
+        "af_name": "Cardiff University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 117,
+        "af_name": "Chongqing Medical University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 118,
+        "af_name": "CSIC",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 119,
+        "af_name": "Doshisha University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 120,
+        "af_name": "Fred Hutchinson Cancer Research Center",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 121,
+        "af_name": "Georgia Institute of Technology",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 122,
+        "af_name": "Guangzhou Medical University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 123,
+        "af_name": "Hanyang University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 124,
+        "af_name": "Henry Ford Hospital",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 125,
+        "af_name": "Institute for Clinical and Experimental Medicine",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 126,
+        "af_name": "Institute for Regenerative Medicine",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 127,
+        "af_name": "Lund University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 128,
+        "af_name": "Mashhad University of Medical Sciences",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 129,
+        "af_name": "Medical University of Vienna",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 130,
+        "af_name": "National Cancer Center",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 131,
+        "af_name": "National Heart",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 132,
+        "af_name": "National Tsing Hua University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 133,
+        "af_name": "Newcastle University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 134,
+        "af_name": "Polish Academy of Sciences",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 135,
+        "af_name": "Shanghai Jiaotong University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 136,
+        "af_name": "Universidade Federal do Rio de Janeiro",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 137,
+        "af_name": "Universita degli Studi di Milano",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 138,
+        "af_name": "Universiti Kebangsaan Malaysia",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 139,
+        "af_name": "University Hospital Regensburg",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 140,
+        "af_name": "University of Antwerp",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 141,
+        "af_name": "University of Bristol",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 142,
+        "af_name": "University of Calgary",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 143,
+        "af_name": "University of Freiburg",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 144,
+        "af_name": "University of Minho",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 145,
+        "af_name": "University of Rostock",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 146,
+        "af_name": "University of the Basque Country",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 147,
+        "af_name": "University of Utah",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 148,
+        "af_name": "University of Virginia",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 149,
+        "af_name": "Utrecht University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 150,
+        "af_name": "Vanderbilt University",
+        "number_of_papers": 6,
+        "rank_of_papers": 28
+    },
+    {
+        "af_id": 151,
+        "af_name": "Academy of Sciences of the Czech Republic",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 152,
+        "af_name": "Banc de Sang i Teixits",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 153,
+        "af_name": "California Institute for Regenerative Medicine",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 154,
+        "af_name": "Erasmus University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 155,
+        "af_name": "Howard Hughes Medical Institute",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 156,
+        "af_name": "Iran University of Medical Sciences",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 157,
+        "af_name": "Kyungpook National University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 158,
+        "af_name": "Massachusetts Institute of Technology",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 159,
+        "af_name": "Nantong University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 160,
+        "af_name": "National Institute of Health",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 161,
+        "af_name": "Orthopaedic Surgery",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 162,
+        "af_name": "Peking University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 163,
+        "af_name": "Russian Academy of Sciences",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 164,
+        "af_name": "Saarland University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 165,
+        "af_name": "Sapienza University of Rome",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 166,
+        "af_name": "Soochow University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 167,
+        "af_name": "Tokai University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 168,
+        "af_name": "Tongji University School of Medicine",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 169,
+        "af_name": "Universite Catholique de Louvain",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 170,
+        "af_name": "Universite Libre de Bruxelles",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 171,
+        "af_name": "University College Londen",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 172,
+        "af_name": "University of Alberta",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 173,
+        "af_name": "University of Kansas",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 174,
+        "af_name": "University of Maryland",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 175,
+        "af_name": "University of Nebraska Medical Center",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 176,
+        "af_name": "University of Nottingham",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 177,
+        "af_name": "University of Queensland",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 178,
+        "af_name": "University of Science",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 179,
+        "af_name": "University of South Australia",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 180,
+        "af_name": "University of Southern California",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 181,
+        "af_name": "University of Turin",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 182,
+        "af_name": "VU University Medical Center",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 183,
+        "af_name": "Wenzhou Medical University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 184,
+        "af_name": "Xi'an Jiaotong University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 185,
+        "af_name": "Zagazig University",
+        "number_of_papers": 5,
+        "rank_of_papers": 29
+    },
+    {
+        "af_id": 186,
+        "af_name": "All India Institute of Medical Sciences",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 187,
+        "af_name": "Autonomous University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 188,
+        "af_name": "Beckman Research Institute of the City of Hope",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 189,
+        "af_name": "Bionics Institute",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 190,
+        "af_name": "Boston University School of Medicine",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 191,
+        "af_name": "Cairo University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 192,
+        "af_name": "Cardiac Surgery",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 193,
+        "af_name": "Case Western Reserve University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 194,
+        "af_name": "Charite University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 195,
+        "af_name": "Charite University Medicine",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 196,
+        "af_name": "Chinese PLA General Hospital",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 197,
+        "af_name": "Chonnam National University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 198,
+        "af_name": "City of Hope",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 199,
+        "af_name": "Copenhagen University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 200,
+        "af_name": "Department of Radiology",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 201,
+        "af_name": "Ferdowsi University of Mashhad",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 202,
+        "af_name": "Fundacao Oswaldo Cruz",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 203,
+        "af_name": "Gachon University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 204,
+        "af_name": "Hand Surgery",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 205,
+        "af_name": "Hiroshima University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 206,
+        "af_name": "Hopital Saint Louis",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 207,
+        "af_name": "Inha University School of Medicine",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 208,
+        "af_name": "International Society for Cellular Therapy",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 209,
+        "af_name": "Isfahan University of Medical Sciences",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 210,
+        "af_name": "Jagiellonian University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 211,
+        "af_name": "Jiangsu University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 212,
+        "af_name": "Kanazawa University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 213,
+        "af_name": "Kunming Medical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 214,
+        "af_name": "Kyoto Prefectural University of Medicine",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 215,
+        "af_name": "Louisiana State University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 216,
+        "af_name": "Ludwig Boltzmann Institute for Experimental and Clinical Traumatology",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 217,
+        "af_name": "Medical College of Wisconsin",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 218,
+        "af_name": "Medical University of Gdansk",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 219,
+        "af_name": "Memorial Sloan-Kettering Cancer Center",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 220,
+        "af_name": "Moffitt Cancer Center",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 221,
+        "af_name": "National Research Institute for Child Health and Development",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 222,
+        "af_name": "nature.com",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 223,
+        "af_name": "New York University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 224,
+        "af_name": "Plastic and Reconstructive Surgery",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 225,
+        "af_name": "Queen's University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 226,
+        "af_name": "Royan Institute for Stem Cell Biology and Technology",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 227,
+        "af_name": "Sapporo Medical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 228,
+        "af_name": "Second Military Medical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 229,
+        "af_name": "Second University of Naples",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 230,
+        "af_name": "Singapore Eye Research Institute",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 231,
+        "af_name": "TCA Cellular Therapy",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 232,
+        "af_name": "Technical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 233,
+        "af_name": "Technion-Israel Institute of Technology",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 234,
+        "af_name": "Third Military Medical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 235,
+        "af_name": "Tohoku University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 236,
+        "af_name": "Tokyo Medical and Dental University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 237,
+        "af_name": "Tokyo Women's Medical University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 238,
+        "af_name": "Universidad de los Andes",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 239,
+        "af_name": "Universidade de Lisboa",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 240,
+        "af_name": "Universidade de Sao Paulo",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 241,
+        "af_name": "Universita Cattolica del Sacro Cuore",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 242,
+        "af_name": "University Medical Centre",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 243,
+        "af_name": "University Medical Centre Utrecht",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 244,
+        "af_name": "University of Alabama at Birmingham",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 245,
+        "af_name": "University of Amsterdam",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 246,
+        "af_name": "University of Campinas",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 247,
+        "af_name": "University of Cincinnati",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 248,
+        "af_name": "University of Helsinki",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 249,
+        "af_name": "University of Kragujevac",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 250,
+        "af_name": "University of Liege",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 251,
+        "af_name": "University of Massachusetts",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 252,
+        "af_name": "University of Navarra",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 253,
+        "af_name": "University of Perugia",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 254,
+        "af_name": "University of Rochester",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 255,
+        "af_name": "University of Sheffield",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 256,
+        "af_name": "University of Tehran",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 257,
+        "af_name": "University of York",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    },
+    {
+        "af_id": 258,
+        "af_name": "Uppsala University",
+        "number_of_papers": 4,
+        "rank_of_papers": 30
+    }
+]

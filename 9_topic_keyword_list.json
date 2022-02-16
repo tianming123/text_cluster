@@ -1,0 +1,92 @@
+[
+    {
+        "tp_id": 0,
+        "tp_name": "CAR-T\u7ec6\u80de\u6cbb\u7597",
+        "kw": [
+            "car",
+            "immune cell",
+            "t-cells",
+            "gene therapy",
+            "transmembrane",
+            "antigen-binding"
+        ]
+    },
+    {
+        "tp_id": 1,
+        "tp_name": "\u5e72\u7ec6\u80de\u6cbb\u7597",
+        "kw": [
+            "autologous stem cell therapy ",
+            "allogenic stem cell therapy",
+            "mesenchymal stem cell ",
+            "pluripotent stem cell ",
+            "hematopoietic stem cell ",
+            "neural stem cell "
+        ]
+    },
+    {
+        "tp_id": 2,
+        "tp_name": "\u7ec6\u80de\u79fb\u690d",
+        "kw": [
+            "cell transplate",
+            "angiogenesis",
+            "neuroprotection",
+            "immune response ",
+            "antibody "
+        ]
+    },
+    {
+        "tp_id": 3,
+        "tp_name": "\u6df7\u5408\u5d4c\u5408\u4f53",
+        "kw": [
+            "mixed recipient",
+            "adoptive cell",
+            "progenitor",
+            "autoimmune disease",
+            "reprogramme"
+        ]
+    },
+    {
+        "tp_id": 4,
+        "tp_name": "PBMC",
+        "kw": [
+            "graft versus host disease ",
+            "dendritic cell ",
+            "cytokine",
+            "peripheral blood ",
+            "mononuclear cell "
+        ]
+    },
+    {
+        "tp_id": 5,
+        "tp_name": "\u9aa8\u9ad3\u7624",
+        "kw": [
+            "plasma cell",
+            "bone marrow",
+            "hyperplasia",
+            "solitary myeloma",
+            "multiple myeloma"
+        ]
+    },
+    {
+        "tp_id": 6,
+        "tp_name": "\u8840\u6db2\u80bf\u7624",
+        "kw": [
+            "inhibitor",
+            "interleukin",
+            "fludarabine",
+            "lymphoblastic leukemia ",
+            "myelogenous leukemia"
+        ]
+    },
+    {
+        "tp_id": 7,
+        "tp_name": "\u764c\u75c7",
+        "kw": [
+            "bladder cancer",
+            "breast cancer",
+            "lung cancer",
+            "regenerative therapy",
+            "cancer immunotherapy"
+        ]
+    }
+]

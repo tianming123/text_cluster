@@ -1,0 +1,1760 @@
+[
+    {
+        "au_id": 1267,
+        "au_name": "Harrison, Richard P",
+        "number_of_papers": 6,
+        "rank_of_papers": 1
+    },
+    {
+        "au_id": 2104,
+        "au_name": "Martin, Ivan",
+        "number_of_papers": 6,
+        "rank_of_papers": 1
+    },
+    {
+        "au_id": 17,
+        "au_name": "Abou-El-Enein, Mohamed",
+        "number_of_papers": 5,
+        "rank_of_papers": 2
+    },
+    {
+        "au_id": 1117,
+        "au_name": "Golchin, Ali",
+        "number_of_papers": 5,
+        "rank_of_papers": 2
+    },
+    {
+        "au_id": 1304,
+        "au_name": "Hernigou, Philippe",
+        "number_of_papers": 5,
+        "rank_of_papers": 2
+    },
+    {
+        "au_id": 2440,
+        "au_name": "Okumura, Naoki",
+        "number_of_papers": 5,
+        "rank_of_papers": 2
+    },
+    {
+        "au_id": 3339,
+        "au_name": "Vaquero, Jesus",
+        "number_of_papers": 5,
+        "rank_of_papers": 2
+    },
+    {
+        "au_id": 756,
+        "au_name": "Detante, Olivier",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 1300,
+        "au_name": "Henry, Timothy D",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 2063,
+        "au_name": "Malliaras, Konstantinos",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 2353,
+        "au_name": "Najar, Mehdi",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 2613,
+        "au_name": "Piuzzi, Nicolas S",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 2803,
+        "au_name": "Roura, Santiago",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 3377,
+        "au_name": "Viswanathan, Sowmya",
+        "number_of_papers": 4,
+        "rank_of_papers": 3
+    },
+    {
+        "au_id": 113,
+        "au_name": "An, Duo",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 121,
+        "au_name": "Andia, Isabel",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 129,
+        "au_name": "Anitua, Eduardo",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 164,
+        "au_name": "Auslander, Simon",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 278,
+        "au_name": "Bieback, Karen",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 361,
+        "au_name": "Browne, Shane",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 424,
+        "au_name": "Caplan, Arnold I",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 438,
+        "au_name": "Carpenter, Melissa K",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 468,
+        "au_name": "Chabannon, Christian",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 595,
+        "au_name": "Ciccocioppo, Rachele",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 664,
+        "au_name": "Csobonyeiova, Maria",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 736,
+        "au_name": "de Wilde, Sofieke",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 797,
+        "au_name": "Dolgin, Elie",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 832,
+        "au_name": "Dubsky, Michal",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 880,
+        "au_name": "Emmert, Maximilian Y",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1142,
+        "au_name": "Gotts, Jeffrey E",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1371,
+        "au_name": "Hourd, Paul",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1420,
+        "au_name": "Hutchinson, James A",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1523,
+        "au_name": "Jones, Daniel A",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1743,
+        "au_name": "Lam, Alan Tin-Lun",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1756,
+        "au_name": "Lange-Consiglio, Anna",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 1924,
+        "au_name": "Lipsitz, Yonatan Y",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2138,
+        "au_name": "Maus, Marcela V",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2173,
+        "au_name": "Mead, Ben",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2190,
+        "au_name": "Menasche, Philippe",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2271,
+        "au_name": "Moll, Guido",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2369,
+        "au_name": "Negroni, Elisa",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2383,
+        "au_name": "Nguyen, Patricia K",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2417,
+        "au_name": "Nystrom, Alexander",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 2610,
+        "au_name": "Pino, Christopher J",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3032,
+        "au_name": "Sniecinski, Irena",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3106,
+        "au_name": "Stroncek, David F",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3167,
+        "au_name": "Tanaka, Rica",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3172,
+        "au_name": "Tang, Qizhi",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3361,
+        "au_name": "Vertes, Alain A",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3406,
+        "au_name": "Gilham, David Edward",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3500,
+        "au_name": "Williams, James Koudy",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3577,
+        "au_name": "Yamada, Yoichi",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3617,
+        "au_name": "Yasuhara, Takao",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3679,
+        "au_name": "Zarbin, Marco",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3715,
+        "au_name": "Zhang, Wei",
+        "number_of_papers": 3,
+        "rank_of_papers": 4
+    },
+    {
+        "au_id": 3,
+        "au_name": "Abbasalizadeh, Saeed",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 22,
+        "au_name": "Abreu, Soraia C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 43,
+        "au_name": "Aghayan, Hamid Reza",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 76,
+        "au_name": "Ali, Robin R",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 85,
+        "au_name": "Allers, Carolina",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 108,
+        "au_name": "Amer, Mahetab H",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 110,
+        "au_name": "Amiri, Fatemeh",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 125,
+        "au_name": "Abdul Wahid, S Fadilah",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 135,
+        "au_name": "Anurathapan, Usanarat",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 144,
+        "au_name": "Arjmand, Babak",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 156,
+        "au_name": "Atala, Anthony",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 174,
+        "au_name": "Badner, Anna",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 176,
+        "au_name": "Baghbaderani, Behnam Ahmadian",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 184,
+        "au_name": "Bailey, Alexander M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 196,
+        "au_name": "Bandeiras, Catia",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 224,
+        "au_name": "Basu, Joydeep",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 236,
+        "au_name": "Behfar, Atta",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 241,
+        "au_name": "Ben M'Barek, Karim",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 271,
+        "au_name": "Bhartiya, Deepa",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 276,
+        "au_name": "Bianco, Paolo",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 277,
+        "au_name": "Bianconi, Vanessa",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 289,
+        "au_name": "Blanco, Juan F",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 297,
+        "au_name": "Bluestone, Jeffrey A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 329,
+        "au_name": "Bovenberg, M Sarah S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 340,
+        "au_name": "Bravery, Christopher A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 348,
+        "au_name": "Brevini, Tiziana A L",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 351,
+        "au_name": "Brindley, David A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 377,
+        "au_name": "Burdzinska, Anna",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 378,
+        "au_name": "Burk, Janina",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 381,
+        "au_name": "Burnouf, Thierry",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 393,
+        "au_name": "Cabral, Rosa Maria",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 428,
+        "au_name": "Cardoso, Liana Monteiro da Fonseca",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 449,
+        "au_name": "Cashman, Timothy J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 453,
+        "au_name": "Castiello, Luciano",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 484,
+        "au_name": "Charo, R Alta",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 488,
+        "au_name": "Chen, Allen Kuan-Liang",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 550,
+        "au_name": "Chisholm, Jolene",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 574,
+        "au_name": "Chong, James J H",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 598,
+        "au_name": "Cipriani, Paola",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 617,
+        "au_name": "Cohen-Haguenauer, Odile",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 635,
+        "au_name": "Coppens, Delphi G M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 643,
+        "au_name": "Cortese, Francesco Albert Bosco",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 651,
+        "au_name": "Couzin-Frankel, Jennifer",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 669,
+        "au_name": "Cui, Li-Li",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 719,
+        "au_name": "de Faria, Carolina Arruda",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 777,
+        "au_name": "Diaz-Prado, Silvia",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 809,
+        "au_name": "Donia, Marco",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 822,
+        "au_name": "Drouet, Michel",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 823,
+        "au_name": "Drouin-Ouellet, Janelle",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 833,
+        "au_name": "Duchesneau, Pascal",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 922,
+        "au_name": "Fandrich, Fred",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 929,
+        "au_name": "Farini, Andrea",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 935,
+        "au_name": "Favaron, Phelipe Oliveira",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 940,
+        "au_name": "Federici, Thais",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 983,
+        "au_name": "Forbes, Stuart J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1029,
+        "au_name": "Fujita, Jun",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1031,
+        "au_name": "Fujita, Yasuyuki",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1036,
+        "au_name": "Gabashvili, A N",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1059,
+        "au_name": "Gaspar, Diana",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1063,
+        "au_name": "Gee, Adrian P",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1068,
+        "au_name": "Gentile, Pietro",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1080,
+        "au_name": "Gholizadeh-Ghaleh Aziz, Shiva",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1091,
+        "au_name": "Gill, Saar",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1092,
+        "au_name": "Gillespie, Lisa N",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1093,
+        "au_name": "Gimble, Jeffrey M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1097,
+        "au_name": "Giordano, Samantha",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1157,
+        "au_name": "Grau-Vorster, Marta",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1163,
+        "au_name": "Griesenbach, Uta",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1215,
+        "au_name": "Gyongyosi, Mariann",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1220,
+        "au_name": "Haahr, Martha Kirstine",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1249,
+        "au_name": "Hanley, Patrick J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1265,
+        "au_name": "Harris, Violaine K",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1266,
+        "au_name": "Harrison, Richard",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1268,
+        "au_name": "Hart, Melanie L",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1271,
+        "au_name": "Has, Cristina",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1275,
+        "au_name": "Hassan, Sally",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1292,
+        "au_name": "Heinrich, Christophe",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1312,
+        "au_name": "Hess, David C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1352,
+        "au_name": "Hong, So Gun",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1354,
+        "au_name": "Honmou, Osamu",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1367,
+        "au_name": "Hou, Jingying",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1374,
+        "au_name": "Hoveizi, Elham",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1393,
+        "au_name": "Huang, Chieh-Cheng",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1429,
+        "au_name": "Ibrahim, Ahmed Gamal-Eldin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1433,
+        "au_name": "Ikegame, Yuka",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1434,
+        "au_name": "Ilic, Dusko",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1456,
+        "au_name": "Jackson, Hollie J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1459,
+        "au_name": "Jain, Kewal K",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1464,
+        "au_name": "Jalili, Reza B",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1468,
+        "au_name": "Janowski, Miroslaw",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1474,
+        "au_name": "Javidi, Mohammad Amin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1477,
+        "au_name": "Jeng, Kuo-Shyang",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1546,
+        "au_name": "Kainuma, Satoshi",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1553,
+        "au_name": "Kanda, Pushpinder",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1555,
+        "au_name": "Kaneko, Yuji",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1559,
+        "au_name": "Kanji, Suman",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1566,
+        "au_name": "Karantalis, Vasileios",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1568,
+        "au_name": "Kardia, Egi",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1594,
+        "au_name": "Kellathur, Srinivasan Nadathur",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1616,
+        "au_name": "Kholodenko, Irina V",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1645,
+        "au_name": "Kim, Young-Mo",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1657,
+        "au_name": "Kirby, Giles T S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1659,
+        "au_name": "Kirsner, Robert S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1672,
+        "au_name": "Knoepfler, Paul S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1711,
+        "au_name": "Kubinova, Sarka",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1741,
+        "au_name": "Lalu, Manoj M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1804,
+        "au_name": "Lee, Shin-Jeong",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1889,
+        "au_name": "Liang, Xiaoting",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1898,
+        "au_name": "Liew, Aaron",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1901,
+        "au_name": "Lim, Jung-Yeon",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1920,
+        "au_name": "Lindvall, Olle",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1925,
+        "au_name": "Liras, Antonio",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1930,
+        "au_name": "Little, Melissa H",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1932,
+        "au_name": "Liu, Bin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1951,
+        "au_name": "Liu, Wei",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1953,
+        "au_name": "Kumar, Anil",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1954,
+        "au_name": "Li, Zhenhua",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1955,
+        "au_name": "Liu, Xiaoli",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1960,
+        "au_name": "Liu, Yufeng",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1962,
+        "au_name": "Liu, Yang",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 1968,
+        "au_name": "Loera-Valencia, R",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2009,
+        "au_name": "Lui, Pauline Po Yee",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2012,
+        "au_name": "Lukovic, Dunja",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2017,
+        "au_name": "Lysy, Philippe A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2030,
+        "au_name": "MacDonald, Katherine N",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2041,
+        "au_name": "Maeda, Kay",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2069,
+        "au_name": "Mangir, Naside",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2075,
+        "au_name": "Mantripragada, V P",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2079,
+        "au_name": "Mao, Fei",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2082,
+        "au_name": "Marban, Eduardo",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2087,
+        "au_name": "Marek-Trzonkowska, Natalia",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2096,
+        "au_name": "Maron-Gutierrez, Tatiana",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2099,
+        "au_name": "Marquez-Curtis, Leah A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2117,
+        "au_name": "Mason, Chris",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2132,
+        "au_name": "Matthay, Michael A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2146,
+        "au_name": "Maziarz, Richard T",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2168,
+        "au_name": "McLean, Alison K",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2172,
+        "au_name": "McQuilling, John P",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2174,
+        "au_name": "Medina, Reinhold J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2195,
+        "au_name": "Meng, Jinhong",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2201,
+        "au_name": "Meregalli, Mirella",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2203,
+        "au_name": "Mert, Tufan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2228,
+        "au_name": "Mimeault, Murielle",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2236,
+        "au_name": "Mirzaei, Hamed",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2243,
+        "au_name": "Miyagawa, Shigeru",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2244,
+        "au_name": "Mizukoshi, Eishiro",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2246,
+        "au_name": "Mizushima, Tsunekazu",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2251,
+        "au_name": "Moccia, Francesco",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2285,
+        "au_name": "Morelli, Adrian E",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2309,
+        "au_name": "Moye, Lemuel A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2310,
+        "au_name": "Muchtar, Eli",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2324,
+        "au_name": "Munsie, Megan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2327,
+        "au_name": "Murphy, Sean V",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2329,
+        "au_name": "Murray, Iain R",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2334,
+        "au_name": "Muttini, Aurelio",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2343,
+        "au_name": "Nagai, Sumimasa",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2354,
+        "au_name": "Naji, Abderrahim",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2356,
+        "au_name": "Nakamura, Toru",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2375,
+        "au_name": "Nemcova, Andrea",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2393,
+        "au_name": "Nigro, Patrizia",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2394,
+        "au_name": "Niknejad, Hassan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2443,
+        "au_name": "Olgun, Hazal Banu",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2479,
+        "au_name": "Otsuru, Satoru",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2506,
+        "au_name": "Parameswaran, Sowmya",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2527,
+        "au_name": "Parolini, Ornella",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2541,
+        "au_name": "Patel, Amit N",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2544,
+        "au_name": "Pati, Shibani",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2573,
+        "au_name": "Pepper, M S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2575,
+        "au_name": "Peran, Macarena",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2592,
+        "au_name": "Peterson, Christopher W",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2626,
+        "au_name": "Porat, Yael",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2632,
+        "au_name": "Povsic, Thomas J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2645,
+        "au_name": "Prockop, Darwin J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2697,
+        "au_name": "Rao, Rajesh C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2701,
+        "au_name": "Ratajczak, Mariusz Z",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2734,
+        "au_name": "Rezvani, Katayoun",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2751,
+        "au_name": "Riviere, Isabelle",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2759,
+        "au_name": "Rodeo, Scott A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2761,
+        "au_name": "Rodrigues, Maria Carolina Oliveira",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2762,
+        "au_name": "Rodrigues, Melanie",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2780,
+        "au_name": "Rong, Zhili",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2811,
+        "au_name": "Ruella, Marco",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2812,
+        "au_name": "Wang, Xin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2823,
+        "au_name": "Saas, Philippe",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2827,
+        "au_name": "Saenz Del Burgo, Laura",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2830,
+        "au_name": "Safinia, Niloufar",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2862,
+        "au_name": "Zhang, Dandan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2875,
+        "au_name": "Savitz, Sean I",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2877,
+        "au_name": "Sawa, Yoshiki",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2899,
+        "au_name": "Schubert, Maria-Luisa",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2925,
+        "au_name": "Selvaraj, Sridhar",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2947,
+        "au_name": "Shanbhag, Siddharth",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2963,
+        "au_name": "Shehadah, Amjad",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2970,
+        "au_name": "Shetty, Ashok K",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2978,
+        "au_name": "Shimasaki, Noriko",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2988,
+        "au_name": "Sicard, Antoine",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 2996,
+        "au_name": "Simari, Robert D",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3021,
+        "au_name": "Smadja, David M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3065,
+        "au_name": "Srinivas, Mangala",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3104,
+        "au_name": "Strom, Stephen C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3116,
+        "au_name": "Suen, Colin M",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3126,
+        "au_name": "Sun, Chuang",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3135,
+        "au_name": "Sung, Pei-Hsun",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3144,
+        "au_name": "Sypecka, Joanna",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3157,
+        "au_name": "Takimoto, Rishu",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3161,
+        "au_name": "Tamarat, R",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3164,
+        "au_name": "Tan, Kah Yong",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3176,
+        "au_name": "Tanhehco, Yvette C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3184,
+        "au_name": "Taylor, Doris A",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3187,
+        "au_name": "Teachey, David T",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3196,
+        "au_name": "Teraa, Martin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3205,
+        "au_name": "Thakkar, Umang G",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3215,
+        "au_name": "Thomas, Simone",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3233,
+        "au_name": "Todo, Satoru",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3257,
+        "au_name": "Tournois, Claire",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3262,
+        "au_name": "Trounson, Alan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3305,
+        "au_name": "Unsworth, David J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3363,
+        "au_name": "Viau, Sabrina",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3370,
+        "au_name": "Villatoro, Antonio Jose",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3384,
+        "au_name": "Volarevic, Vladislav",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3391,
+        "au_name": "Voronova, А D",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3416,
+        "au_name": "Wang, Jie",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3427,
+        "au_name": "Wang, Min",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3457,
+        "au_name": "Wang, Zheng-Xu",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3484,
+        "au_name": "Weiss, Daniel J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3519,
+        "au_name": "Woods, Erik J",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3547,
+        "au_name": "Xie, Min",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3574,
+        "au_name": "Yam, Gary Hin-Fai",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3580,
+        "au_name": "Yamashita, Toru",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3618,
+        "au_name": "Yates, Cecelia C",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3641,
+        "au_name": "You, Hi-Jin",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3645,
+        "au_name": "Young, Jacob S",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3655,
+        "au_name": "Yu, Jing",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3660,
+        "au_name": "Yu, Yue",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3706,
+        "au_name": "Zhang, Li",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3717,
+        "au_name": "Zhang, Weitao",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3760,
+        "au_name": "Zhu, Dandan",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    },
+    {
+        "au_id": 3769,
+        "au_name": "Ziegler, Melanie",
+        "number_of_papers": 2,
+        "rank_of_papers": 5
+    }
+]
